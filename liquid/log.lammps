@@ -1,0 +1,16 @@
+LAMMPS (2 Aug 2023 - Update 3)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Loaded 1 plugins from C:\Users\mitra\AppData\Local\LAMMPS 64-bit 2Aug2023 with GUI\plugins
+# PART A - ENERGY MINIMIZATION
+# 1) Initialization
+units lj
+dimension 3
+atom_style atomic
+pair_style lj/cut 2.5
+boundary p p p
+# 2) System definition
+# 3) Simulation settings
+# 4) Visualization
+# 5) Run
+Total wall time: 0:00:00
